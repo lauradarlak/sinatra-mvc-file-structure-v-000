@@ -10,7 +10,7 @@ class Dog
   end
 
   def save
-    dog = Dog.new
+    dog = Dog.new(name, breed, age)
     @@all << dog
   end
 
